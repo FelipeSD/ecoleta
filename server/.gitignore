@@ -1,0 +1,7 @@
+node_modules
+uploads/*
+!uploads/.gitkeep
+*.sqlite
+.expo
+.expo-shared
+package-lock.json
