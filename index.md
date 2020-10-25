@@ -1,3 +1,12 @@
+## Como foi feito o deploy
+Foi utilizado o heroku usando o mesmo repositório no github para os 3 serviços: web, servidor e mobile. Para isso foi necessário usar o git subtree para cada app no herokup identificando o serviço que seria rodado. 
+Referências que ajudaram no processo:
+[(MEDIUM) Deploy Git subdirectory to Heroku](https://medium.com/@shalandy/deploy-git-subdirectory-to-heroku-ea05e95fce1f)
+[(CODERWALL) Heroku deployment in a subfolder](https://coderwall.com/p/ssxp5q/heroku-deployment-without-the-app-being-at-the-repo-root-in-a-subfolder)
+Definindo build para compilar o typescript e criar o inicio de produção do servidor
+[How to Setup a TypeScript + Node.js Project](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/FelipeSD/ecoleta/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
