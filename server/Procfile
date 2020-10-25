@@ -1,1 +1,1 @@
-web: knex migrate:rollback && knex seed:run && tsc && node src/server.js
+web: knex migrate:down && knex migrate:up && knex seed:run && tsc && node src/server.js
