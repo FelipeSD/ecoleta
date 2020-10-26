@@ -6,6 +6,9 @@ Referências que ajudaram no processo:
 Definindo build para compilar o typescript e criar o inicio de produção do servidor
 [How to Setup a TypeScript + Node.js Project](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
 
+Comando importante pela qual foi possível utilizar o mesmo repositório para diferentes aplicações deploy no heroku
+git subtree push --prefix server heroku master
+
 
 ## Welcome to GitHub Pages
 
