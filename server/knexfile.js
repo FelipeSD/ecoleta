@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var path_1 = __importDefault(require("path"));
 module.exports = {
     client: 'sqlite3',
+    type: "module",
     connection: {
         filename: path_1.default.resolve(__dirname, 'src', 'database', 'database.sqlite') // dirname: variavel global que retorna diretorio do arquivo que o executa
     },
