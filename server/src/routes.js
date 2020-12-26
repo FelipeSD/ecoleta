@@ -11,7 +11,7 @@ var PointsController_1 = __importDefault(require("./controllers/PointsController
 var ItemsController_1 = __importDefault(require("./controllers/ItemsController"));
 var routes = express_1.default.Router();
 var upload = multer_1.default(multer_2.default);
-var pointsController = new PointsController_1.default();
+var pointsController = new PointsController_1.default(); 
 var itemsController = new ItemsController_1.default();
 routes.get("/items", itemsController.index);
 routes.get("/points", pointsController.index);
